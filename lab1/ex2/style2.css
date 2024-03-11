@@ -1,0 +1,51 @@
+body {
+    background-image: url("image2/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.right-header {
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.in-right-header {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+}
+
+.left-main {
+    width: 60%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    display: flex;
+}
